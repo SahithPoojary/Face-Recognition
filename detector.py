@@ -20,7 +20,7 @@ while(True):
         ide,conf=rec.predict(gray[y:y+h,x:x+w])
         if(conf < 60):
             if(ide==1):
-                ide="Sahith"
+                ide="Ram"
             elif(ide==2):
                 ide="Raju"
             elif(ide==3):
